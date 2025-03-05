@@ -1,0 +1,8 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+    <h1>Personal account</h1>
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Balance:</strong> {{ user.balance }} ₸</p>
+{% endblock %}
